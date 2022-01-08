@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    
+    
+}
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat:repeat-x;
+    background-color: hsl(225, 100%, 94%);
+    
+}
+.Gen-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    
+}
+
+.container{
+    background-color: white;
+    max-width: 550px;
+    border-radius: 15px;
+}
+.img img{
+    width: 100%;
+    display: block;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.text{
+    text-align: center;
+    padding: 40px;
+    line-height: 27px;
+}
+.text>p{
+    padding-top: 20px;
+    max-width: 300px;
+    margin-left: 40px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    
+    
+}
+.annul-cont{
+    background: hsl(225, 100%, 98%);
+    margin-top: -25px;
+    margin-left: 55px;
+    margin-right: 55px;
+    border-radius: 10px;
+    padding: 15px;
+    
+}
+.annul-page{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.page1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 90px;
+}
+
+.img1{
+    width: 20%;
+    display: block;
+    margin-right: 15px;
+    border-radius: 15px;
+}
+.detail{
+    padding-top: -30px;
+    margin-top: -10px;
+}
+.plan{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.cost{
+    font-weight: 300;
+}
+.change{
+    font-size: 17px;
+    color: blue;
+}
+.change:hover{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: hsl(245, 75%, 52%);
+}
+.proceed{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+    
+}
+.button{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    width: 100%;
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 35px;
+    border-radius: 15px;
+    margin-top: 15px;
+    box-shadow: 2px 5px 5px hsl(225, 100%, 98%);
+    cursor: pointer;
+    max-width: 350px;
+}
+.button:hover{
+    background-color: hsl(245, 75%, 52%);
+}
+.order > a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.order1:hover{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media (min-width: 375px) and (max-width:480px){
+    .container{
+        max-width: 320px;
+        margin: 20px; 
+        font-size: 16px;
+    }
+    .text{
+        padding-top: 20px;
+    }
+    .text > h1{
+        font-size: 20px;
+    }
+    .text > p{
+        width: 100%;
+        font-size: 15px;
+        margin-left: -5px;
+        font-weight: 300;
+    }
+    
+   .annul-cont{
+       width: 80%;
+       margin-left: 30px;
+       margin-top: -20px;
+   }
+
+   .plan{
+       font-size: 14px;
+       font-weight: 700;
+   }
+   .page2{
+       margin-left: -70px;
+       padding-top: 5px;
+   }
+   .button{
+       font-size: 17px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       margin-top: -8px;
+       
+   }
+   .change{
+       font-size: 14px;
+   }
+   
+   
+
+    .attribution{
+        font-size: 12px;
+        margin-top: -10px;
+    }
+}
